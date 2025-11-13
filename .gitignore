@@ -1,0 +1,111 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js
+test-*.js
+run-tests.ps1
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Extracted PDF documentation
+Documentations/extracted/
+Documentations/*.pdf
+
+# Uploaded files
+uploads/
+public/uploads/
+
+# Database
+*.sql~
+*.db
+*.sql.backup
+
+# Documentation (keep only essential)
+*FIX*.md
+*GUIDE*.md
+*SUMMARY*.md
+*CHECKLIST*.md
+*IMPLEMENTATION*.md
+*COMPLETE*.md
+*FIXES*.md
+*STATUS*.md
+*REPORT*.md
+*IMPROVEMENTS*.md
+*ADMIN*.md
+*NAVBAR*.md
+*QR*.md
+*QUICK*.md
+*RESTART*.md
+*START*.md
+*TESTING*.md
+*TICKET*.md
+*URGENT*.md
+*VERIFICATION*.md
+*VISUAL*.md
+*BUG*.md
+*SCREENINGS*.md
+*ACTION*.md
+*MASTER*.md
+*DOCUMENTATION*.md
+*FILES*.md
+*FILE*.md
+*FINAL*.md
+*LATEST*.md
+*.txt
+!SETUP.md
+!README.md
+
+# Batch files (keep only essential)
+*.bat
+!start-system.bat
+!QUICK_START.bat
+
+# Python scripts
+*.pyc
+__pycache__/
+*.py
+extract_pdfs.py
+
+# Backup files
+*_OLD*.md
+*_BACKUP*.md
+*~
+
+# Lock files (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
